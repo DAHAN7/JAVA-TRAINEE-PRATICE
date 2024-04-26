@@ -1,0 +1,19 @@
+package javapratice;
+
+import java.util.Scanner;
+
+public class java12{
+	public static void main(String[] args) {
+		Scanner Sc = new Scanner(System.in);
+		boolean isRun = true ;
+		int money = 0;
+		while(isRun) {
+			System.out.println("=================");
+			System.out.println("1.예금|2.출금|3.잔액확인|4.종료");
+			System.out.println("=================");
+			System.out.println("번호를 입력해 주세요(1~4)>");
+			int selectNo = Sc.nextInt();
+		}
+		System.out.println("Main 종료");
+	}
+}
